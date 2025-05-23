@@ -1,0 +1,171 @@
+.servico {
+    padding: 64px 24px;
+    background-color: #fff;
+}
+  
+.servico-intro {
+    text-align: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    background-color: #1e3a8a;
+    color: white;
+    padding: 24px 0;
+    margin-bottom: 48px;
+}
+  
+.servico-intro h2 {
+    font-size: 38px;
+    color: #f59e0b;
+    margin-bottom: 8px;
+}
+  
+.servico-intro p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.servico-bloco {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+  
+.servico-texto {
+    flex: 1;
+    max-width: 500px;
+}
+  
+.servico-texto h3 {
+    font-size: 38px;
+    color: #f59e0b;
+    margin-bottom: 8px;
+}
+  
+.servico-texto p {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #222;
+}
+  
+.servico-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 50% 0 50% 0;
+}
+  
+.servico-carousel {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+  
+.carousel-track {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    gap: 0;
+}
+  
+.carousel-track img {
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+  
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: #f59e0b;
+    border: none;
+    padding: 8px 12px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+  
+.carousel-btn.left {
+    left: 8px;
+}
+  
+.carousel-btn.right {
+    right: 8px;
+}
+  
+.servico-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+  
+  
+.servico-card {
+    background-color: #f9f9f9;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-align: left;
+}
+    
+.servico-card img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+  
+.servico-card h3 {
+    font-size: 28px;
+    color: #f59e0b;
+    margin-bottom: 20px;
+}
+    
+.servico-card p {
+    font-size: 18px;
+    color: #333;
+}  
+  
+/* ===================== RESPONSIVIDADE ===================== */
+@media (max-width: 768px) {
+    .servico-bloco {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .servico-texto, .servico-img img {
+      max-width: 100%;
+    }
+  
+    .servico-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .servico-card img {
+        width: 120px;
+    }
+  
+    .carousel-track img {
+      width: 180px;
+      height: 140px;
+    }
+}
+  

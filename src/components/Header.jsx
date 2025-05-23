@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import logo from '../img/logo.png'
-import { Menu, X } from 'lucide-react'
-import '../App.css'
+import { useState } from 'react';
+import logo from '../img/logo.png';
+import { Menu, X } from 'lucide-react';
+import '../App.css';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -14,7 +14,7 @@ function Header() {
             <nav className="nav-desktop">
                 <a href="#sobre">Quem sou eu?</a>
                 <a href="#servicos">Serviços</a>
-                <a href="#trabalhos">Trabalhos</a>
+                <a href="#habilidades">Habilidades</a>
                 <a href="#contato">Contato</a>
             </nav>
         </div>
@@ -33,7 +33,7 @@ function Header() {
         <div className="menu-mobile">
           <a href="#sobre">Quem sou eu?</a>
           <a href="#servicos">Serviços</a>
-          <a href="#trabalhos">Trabalhos</a>
+          <a href="#trabalhos">Habilidades</a>
           <a href="#contato">Contato</a>
           <a href="#whatsApp" className="whatsapp-btn">
             <i className="fa-brands fa-whatsapp"></i> WhatsApp
