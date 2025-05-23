@@ -49,7 +49,8 @@ header {
 }
 
 .nav-desktop a:hover {
-  color: #d97706;
+  color: #0284c7;
+  text-decoration: underline
 }
 
 /* ===================== BOTÃO WHATSAPP ===================== */
@@ -67,7 +68,7 @@ header {
 }
 
 .whatsapp-btn:hover {
-  background-color: #d97706;
+  background-color: #0284c7;
 }
 
 /* ===================== MENU MOBILE ===================== */
@@ -241,6 +242,116 @@ header {
   max-width: 100%;
 }
 
+/* ===================== HABILIDADES ===================== */
+.habilidades {
+  background-color: #F2AC57;
+  padding: 64px 0px 0px 0px;
+  text-align: center;
+  color: white;
+}
+
+.habilidades-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.habilidades-container h2 {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+.habilidades-container p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.habilidades-background {
+  background-color: white;
+  padding: 40px 24px 64px;
+}
+
+.habilidades-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  justify-items: center;
+}
+
+.habilidade-card {
+  background-color: #1e3a8a;
+  color: white;
+  width: 180px;
+  height: 180px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.habilidade-card:hover {
+  transform: scale(1.05);
+}
+
+.habilidade-icon {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+/* ===================== FOOTER ===================== */
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 40px 0 0;
+}
+
+.footer p {
+  color: #F2AC57;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 24px;
+}
+
+.footer-icons a {
+  text-decoration: none;
+}
+
+.footer-icon {
+  background-color: #F2AC57;
+  color: white;
+  font-size: 60px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+  background-color: #0374ad;
+}
+
+.footer-bottom {
+  background-color: #1e3a8a;
+  height: 100px;
+  width: 100%;
+}
+
+
 /* ===================== RESPONSIVIDADE ===================== */
 @media (min-width: 768px) {
   .nav-desktop {
@@ -284,5 +395,23 @@ header {
 
   .sobre-imagem img {
     width: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .habilidades-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .habilidades-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .habilidades-grid {
+    grid-template-columns: 1fr;
   }
 }

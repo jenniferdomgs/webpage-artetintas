@@ -1,8 +1,10 @@
+/* ===================== BASE ===================== */
 .servico {
     padding: 64px 24px;
     background-color: #fff;
 }
-  
+
+/* ===================== INTRO SEÇÃO ===================== */
 .servico-intro {
     text-align: center;
     width: 100vw;
@@ -12,19 +14,20 @@
     padding: 24px 0;
     margin-bottom: 48px;
 }
-  
+
 .servico-intro h2 {
     font-size: 38px;
     color: #f59e0b;
     margin-bottom: 8px;
 }
-  
+
 .servico-intro p {
     font-size: 20px;
     max-width: 600px;
     margin: 0 auto;
 }
 
+/* ===================== BLOCOS SERVIÇOS ===================== */
 .servico-bloco {
     display: flex;
     flex-wrap: wrap;
@@ -33,36 +36,37 @@
     justify-content: center;
     margin-bottom: 64px;
 }
-  
+
 .servico-texto {
     flex: 1;
     max-width: 500px;
 }
-  
+
 .servico-texto h3 {
     font-size: 38px;
     color: #f59e0b;
     margin-bottom: 8px;
 }
-  
+
 .servico-texto p {
     margin-top: 50px;
     font-size: 20px;
     color: #222;
 }
-  
+
 .servico-img img {
     width: 300px;
     height: auto;
     border-radius: 50% 0 50% 0;
 }
-  
+
+/* ===================== CARROSSEL IMGS ===================== */
 .servico-carousel {
     position: relative;
     overflow: hidden;
     margin-bottom: 48px;
 }
-  
+
 .carousel-track {
     display: flex;
     scroll-snap-type: x mandatory;
@@ -71,7 +75,7 @@
     width: 100%;
     gap: 0;
 }
-  
+
 .carousel-track img {
     width: 300px;
     height: 260px;
@@ -79,7 +83,7 @@
     flex-shrink: 0;
     scroll-snap-align: start;
 }
-  
+
 .carousel-btn {
     position: absolute;
     top: 50%;
@@ -93,15 +97,16 @@
     cursor: pointer;
     border-radius: 50%;
 }
-  
+
 .carousel-btn.left {
     left: 8px;
 }
-  
+
 .carousel-btn.right {
     right: 8px;
 }
-  
+
+/* ===================== CARDS SERVIÇOS ===================== */
 .servico-cards {
     display: flex;
     flex-direction: column;
@@ -109,8 +114,7 @@
     gap: 24px;
     margin-top: 48px;
 }
-  
-  
+
 .servico-card {
     background-color: #f9f9f9;
     padding: 24px;
@@ -124,36 +128,37 @@
     gap: 32px;
     text-align: left;
 }
-    
+
 .servico-card img {
     width: 300px;
     height: auto;
     flex-shrink: 0;
     border-radius: 12px;
 }
-  
+
 .servico-card h3 {
     font-size: 28px;
     color: #f59e0b;
     margin-bottom: 20px;
 }
-    
+
 .servico-card p {
     font-size: 18px;
     color: #333;
-}  
-  
+}
+
 /* ===================== RESPONSIVIDADE ===================== */
 @media (max-width: 768px) {
     .servico-bloco {
-      flex-direction: column;
-      text-align: center;
+        flex-direction: column;
+        text-align: center;
     }
-  
-    .servico-texto, .servico-img img {
-      max-width: 100%;
+
+    .servico-texto,
+    .servico-img img {
+        max-width: 100%;
     }
-  
+
     .servico-card {
         flex-direction: column;
         text-align: center;
@@ -162,10 +167,37 @@
     .servico-card img {
         width: 120px;
     }
-  
+
     .carousel-track img {
-      width: 180px;
-      height: 140px;
+        width: 180px;
+        height: 140px;
+    }
+
+    .servico-intro h2 {
+        font-size: 28px;
+    }
+
+    .servico-intro {
+        padding: 20px;
+    }
+
+    .servico-intro p {
+        font-size: 16px;
+    }
+
+    .servico-texto h3 {
+        font-size: 28px;
+    }
+
+    .servico-texto p {
+        font-size: 16px;
+    }
+
+    .servico-card h3 {
+        font-size: 22px;
+    }
+
+    .servico-card p {
+        font-size: 16px;
     }
 }
-  
