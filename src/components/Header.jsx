@@ -3,6 +3,10 @@ import logo from '../img/logo.png';
 import { Menu, X } from 'lucide-react';
 import '../App.css';
 
+
+// LEMBRAR DE SUBSTITUIR OS LINKS PELOS REAIS
+
+
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 

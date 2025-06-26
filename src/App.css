@@ -160,9 +160,11 @@ header {
   margin-bottom: 100px;
 }
 
+
 .hero-button {
-  background-color: #FFAE4B;
+  background-color: #d97706;
   color: white;
+  font-weight: bold;
   padding: 12px 24px;
   border-radius: 999px;
   text-decoration: none;
@@ -170,7 +172,7 @@ header {
 }
 
 .hero-button:hover {
-  background-color: #d97706;
+  background-color: #0374ad;
 }
 
 
@@ -305,9 +307,11 @@ header {
 
 /* ===================== FOOTER ===================== */
 .footer {
+  display: flex;
   background-color: white;
   text-align: center;
   padding: 40px 0 0;
+  flex-direction: column;
 }
 
 .footer p {

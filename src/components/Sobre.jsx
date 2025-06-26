@@ -9,7 +9,7 @@ function Sobre() {
         <div className="sobre-texto">
           <h2>Quem sou eu?</h2>
           <p>
-            Olá! Sou pintor profissional há mais de uma década. Comecei ainda jovem ajudando meu pai nas reformas da vizinhança, e desde então nunca mais larguei o pincel. 
+            Olá! Sou pintor profissional com mais de 10 anos de experiência em reformas e manutenções. Atuo em Balneário Camboriú, Itapema e Porto Belo com serviços de pintura, elétrica, hidráulica e manutenção predial. Meu compromisso é entregar um trabalho limpo, seguro e do jeito que você imaginou.
           </p>
           <a href="#contato" className="btn-sobre">Converse comigo <i className="fa-brands fa-whatsapp"></i></a>
         </div>

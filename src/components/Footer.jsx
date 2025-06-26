@@ -1,11 +1,15 @@
 import '../App.css';
 
+
+// LEMBRAR DE SUBSTITUIR OS LINKS PELOS REAIS
+
+
 function Footer() {
     return (
         <footer className="footer">
             <div className="footer-container">
-            <p>Entre em contato</p>
-            
+            <p>Atendemos Balneário Camboriú, Itapema e Porto Belo com serviços de pintura, elétrica e manutenção predial. Fale conosco pelo WhatsApp!</p>
+
             <div className="footer-icons">
                 <a href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer">
                 <div className="footer-icon">

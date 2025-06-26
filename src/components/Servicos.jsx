@@ -12,7 +12,10 @@ import Trabalhadores from '../img/trabalhadores.jpg';
 import ServicoInterno from '../img/servicointerno.jpg';
 import Servico3 from '../img/pintor4.jpg';
 import Servico4 from '../img/servicoCad.jpg';
-
+import Predio2 from '../img/predio3.jpg';
+import Predio3 from '../img/predio4.jpg';
+import Predio4 from '../img/predio5.jpg';
+import Servico5 from '../img/servicoCadeirinha1.jpg';
 
 function Servico() {
 
@@ -61,12 +64,16 @@ function Servico() {
         <div className="carousel-track" ref={carouselRef}>
             <img src={Servico1} alt="Serviço 1" />
             <img src={Predio} alt="Serviço 2" />
-            <img src={Servico4} alt="Serviço 7" />
+            <img src={Servico4} alt="Serviço 3" />
             <img src={Predio1} alt="Serviço 4" />
-            <img src={Servico2} alt="Serviço 3" />
-            <img src={ServicoInterno} alt="Serviço 5" />
-            <img src={Servico3} alt="Serviço 6" />
-            <img src={Trabalhadores} alt="Serviço 4" />
+            <img src={Servico2} alt="Serviço 5" />
+            <img src={Predio3} alt="Serviço 6" />
+            <img src={ServicoInterno} alt="Serviço 7" />
+            <img src={Servico3} alt="Serviço 8" />
+            <img src={Predio4} alt="Serviço 12" />
+            <img src={Trabalhadores} alt="Serviço 9" />
+            <img src={Predio2} alt="Serviço 10" />
+            <img src={Servico5} alt="Serviço 11" />
         </div>
         <button className="carousel-btn right" onClick={scrollRight}>›</button>
       </div>
@@ -76,7 +83,10 @@ function Servico() {
         <div className="servico-card">
           <div>
             <h3>Pintura</h3>
-            <p>Transforme seu ambiente com uma pintura feita com cuidado e atenção aos detalhes. Uso materiais de qualidade e deixo tudo limpo e organizado. Quer renovar sua casa ou espaço comercial? Pode contar comigo!</p>
+            <p>
+              Pintura residencial, comercial e em fachadas com acabamento profissional em Balneário Camboriú, Itapema e Porto Belo. Uso materiais de qualidade e deixo tudo limpo e organizado. Renove seu espaço com quem entende do assunto!
+            </p>
+
           </div>
           <img src={Pincel} alt="Pintura" />
         </div>
