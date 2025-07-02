@@ -1,10 +1,7 @@
 import { useState } from 'react';
-import logo from '../img/logo.png';
+import logo from '../img/logo-teste2.png';
 import { Menu, X } from 'lucide-react';
 import '../App.css';
-
-
-// LEMBRAR DE SUBSTITUIR OS LINKS PELOS REAIS
 
 
 function Header() {
@@ -24,7 +21,7 @@ function Header() {
         </div>
 
 
-        <a href="#whatsApp" className="whatsapp-btn">
+        <a target="_blank" rel="noopener noreferrer" href="https://wa.link/g9hm8d" className="whatsapp-btn">
           <i className="fa-brands fa-whatsapp"></i> WhatsApp
         </a>
 
@@ -37,9 +34,9 @@ function Header() {
         <div className="menu-mobile">
           <a href="#sobre">Quem sou eu?</a>
           <a href="#servicos">Serviços</a>
-          <a href="#trabalhos">Habilidades</a>
+          <a href="#habilidades">Habilidades</a>
           <a href="#contato">Contato</a>
-          <a href="#whatsApp" className="whatsapp-btn">
+          <a target="_blank" rel="noopener noreferrer" href="https://wa.link/g9hm8d" className="whatsapp-btn">
             <i className="fa-brands fa-whatsapp"></i> WhatsApp
           </a>
         </div>

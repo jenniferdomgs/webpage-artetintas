@@ -15,7 +15,7 @@ const habilidades = [
 
 export default function Habilidades() {
   return (
-    <section className="habilidades">
+    <section id="habilidades" className="habilidades">
       <div className="habilidades-container">
         <h2>Habilidades</h2>
         <p>Algumas das minhas habilidades são:</p>

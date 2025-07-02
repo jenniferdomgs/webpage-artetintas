@@ -34,7 +34,7 @@ function Servico() {
     };
 
   return (
-    <section className="servico">
+    <section id="servicos" className="servico">
 
       <div className="servico-intro">
         <h2>Manutenção Predial</h2>

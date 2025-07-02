@@ -9,6 +9,10 @@ body {
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ===================== HEADER ===================== */
 header {
   background-color: white;
@@ -28,7 +32,7 @@ header {
 }
 
 .logo {
-  width: 80px;
+  width: 100px;
 }
 
 .logo-nav {
@@ -315,7 +319,7 @@ header {
 }
 
 .footer p {
-  color: #F2AC57;
+  color: #1e3a8a;
   font-size: 20px;
   margin-bottom: 20px;
 }
