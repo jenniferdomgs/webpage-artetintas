@@ -13,7 +13,7 @@ function Header() {
         <div className="logo-nav">
             <img src={logo} alt="Logo" className="logo" />
             <nav className="nav-desktop">
-                <a href="#sobre">Quem sou eu?</a>
+                <a href="#sobre">Sobre</a>
                 <a href="#servicos">Serviços</a>
                 <a href="#habilidades">Habilidades</a>
                 <a href="#contato">Contato</a>

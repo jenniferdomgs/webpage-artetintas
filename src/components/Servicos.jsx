@@ -39,7 +39,7 @@ function Servico() {
       <div className="servico-intro">
         <h2>Manutenção Predial</h2>
         <p>
-          Trabalho com capricho, responsabilidade e sempre deixo tudo limpo e bem feito.
+          Trabalhamos com capricho, responsabilidade e sempre deixo tudo limpo e bem feito.
           O meu objetivo é facilitar a sua vida e deixar seu espaço do jeitinho que você imaginou.
           Se quiser um serviço bem feito e com confiança, é só me chamar!
         </p>
@@ -48,11 +48,7 @@ function Servico() {
       <div className="servico-bloco">
         <div className="servico-texto">
           <h3>Alpinismo industrial</h3>
-          <p>
-            Trabalho com capricho, responsabilidade e sempre deixo tudo limpo e bem feito.
-            O meu objetivo é facilitar a sua vida e deixar seu espaço do jeitinho que você imaginou.
-            <br></br>Se quiser um serviço bem feito e com confiança, é só me chamar!
-          </p>
+          <p>O alpinismo industrial é uma técnica especializada que utiliza equipamentos de escalada para realizar serviços em locais de difícil acesso, como fachadas, telhados e estruturas elevadas. É uma solução segura, ágil e eficiente para manutenção, pintura, limpeza e reparos em alturas, garantindo qualidade sem a necessidade de andaimes ou estruturas convencionais.</p>
         </div>
         <div className="servico-img">
             <img src={Pintor} alt="pintor" />
@@ -94,13 +90,13 @@ function Servico() {
           <img src={FerramentasA} alt="Hidráulica" />
           <div>
             <h3>Hidráulica</h3>
-            <p>Realizo serviços hidráulicos com precisão, agilidade e o mínimo de transtorno para você. Desde pequenos reparos a instalações completas, sempre com responsabilidade e compromisso com um bom resultado.</p>
+            <p>Realizamos serviços hidráulicos com precisão, agilidade e o mínimo de transtorno para você. Desde pequenos reparos a instalações completas, sempre com responsabilidade e compromisso com um bom resultado.</p>
           </div>
         </div>
         <div className="servico-card">
             <div>
                 <h3>Elétrica</h3>
-                <p>Faço instalações e manutenções elétricas com total segurança e seguindo os padrões corretos. Serviço confiável, limpo e eficiente, ideal para quem quer tranquilidade e tudo funcionando sem dor de cabeça.</p>
+                <p>Fazemos instalações e manutenções elétricas com total segurança e seguindo os padrões corretos. Serviço confiável, limpo e eficiente, ideal para quem quer tranquilidade e tudo funcionando sem dor de cabeça.</p>
             </div>
             <img src={Ferramentas} alt="Elétrica" />
         </div>

@@ -62,7 +62,7 @@ header {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: #F2AC57;
+  background-color: #d97706;
   color: white;
   padding: 8px 16px;
   font-weight: 600;
@@ -312,23 +312,19 @@ header {
 /* ===================== FOOTER ===================== */
 .footer {
   display: flex;
-  background-color: white;
+  flex-direction: column;
+  background-color: #f5f5f5; 
   text-align: center;
   padding: 40px 0 0;
-  flex-direction: column;
 }
 
 .footer p {
-  color: #1e3a8a;
-  font-size: 20px;
+  color: #d97706;
+  font-size: 18px;
   margin-bottom: 20px;
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-bottom: 24px;
+  max-width: 600px;
+  margin: 0 auto 20px; 
+  line-height: 1.4;
 }
 
 .footer-icons a {
@@ -336,28 +332,47 @@ header {
 }
 
 .footer-icon {
-  background-color: #F2AC57;
+  background-color: #d97706;
   color: white;
-  font-size: 60px;
-  width: 100px;
-  height: 100px;
+  font-size: 32px; 
+  width: 60px; 
+  height: 60px; 
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: transform 0.3s;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
 }
 
 .footer-icon:hover {
-  transform: scale(1.1);
+  transform: translateY(-5px);
   background-color: #0374ad;
 }
-
 .footer-bottom {
   background-color: #1e3a8a;
-  height: 100px;
   width: 100%;
+  padding: 30px 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
 }
+
+.footer-bottom p {
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0; 
+}
+
+
 
 
 /* ===================== RESPONSIVIDADE ===================== */
