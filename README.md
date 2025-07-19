@@ -1,4 +1,4 @@
-# 🌐 Nome do Projeto
+# 🌐 WebPage - Arte Tintas | SC
 
 Uma página web desenvolvida com **React** e **Vite**, com foco em divulgar os serviços prestados pela empresa Arte Tintas (SC). O projeto está hospedado na **Vercel**.
 
