@@ -1,12 +1,67 @@
-# React + Vite
+# 🌐 Nome do Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma página web desenvolvida com **React** e **Vite**, com foco em divulgar os serviços prestados pela empresa Arte Tintas (SC). O projeto está hospedado na **Vercel**.
 
-Currently, two official plugins are available:
+## 🗂️ Estrutura do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+├── public/
+├── src/
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── README.md
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Vercel](https://vercel.com/) para deploy
+
+## 📦 Instalação e Execução Local
+
+Para rodar este projeto na sua máquina:
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/jenniferdomgs/webpage-artetintas.git
+```
+
+2. Acesse a pasta do projeto:
+cd webpage-artetintas
+
+3. Instale as dependências:
+npm install
+
+4. Inicie o servidor de desenvolvimento:
+npm run dev
+
+O projeto estará disponível em http://localhost:3000 (ou conforme indicado no terminal).
+
+🖼️ Demonstrações
+
+| Página Inicial                        | Responsividade                            |
+| ------------------------------------- | ----------------------------------------- |
+| ![Home](./public/screenshot-home.png) | ![Mobile](./public/screenshot-mobile.png) |
+
+🌐 Deploy
+
+O projeto está publicado em:
+🔗 https://webpage-artetintas.vercel.app/
+
+🧩 Funcionalidades
+
+    ✅ Responsivo para diferentes tamanhos de tela
+
+    ✅ Navegação leve e rápida
+
+    ✅ Componentização com React
+
+🧑‍💻 Autor(a)
+
+Desenvolvido por https://github.com/jenniferdomgs
+📧 jenniferdomgs@gmail.com
