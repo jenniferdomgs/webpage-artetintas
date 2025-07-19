@@ -5,12 +5,19 @@ Uma página web desenvolvida com **React** e **Vite**, com foco em divulgar os s
 ## 🗂️ Estrutura do Projeto
 
 ├── public/
+
 ├── src/
+
 ├── .gitignore
+
 ├── index.html
+
 ├── package.json
+
 ├── package-lock.json
+
 ├── vite.config.js
+
 ├── README.md
 
 ## 🚀 Tecnologias Utilizadas
