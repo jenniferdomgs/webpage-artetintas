@@ -49,18 +49,18 @@ npm run dev
 
 O projeto estará disponível em http://localhost:3000 (ou conforme indicado no terminal).
 
-🖼️ Demonstrações
+## 🖼️ Demonstrações
 
 | Página Inicial                        | Responsividade                            |
 | ------------------------------------- | ----------------------------------------- |
 | ![Home](./public/screenshot-home.png) | ![Mobile](./public/screenshot-mobile.png) |
 
-🌐 Deploy
+## 🌐 Deploy
 
 O projeto está publicado em:
 🔗 https://webpage-artetintas.vercel.app/
 
-🧩 Funcionalidades
+## 🧩 Funcionalidades
 
     ✅ Responsivo para diferentes tamanhos de tela
 
@@ -68,7 +68,7 @@ O projeto está publicado em:
 
     ✅ Componentização com React
 
-🧑‍💻 Autor(a)
+## 🧑‍💻 Autor(a)
 
 Desenvolvido por https://github.com/jenniferdomgs
 📧 jenniferdomgs@gmail.com
