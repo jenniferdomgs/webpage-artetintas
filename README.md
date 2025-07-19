@@ -49,12 +49,6 @@ npm run dev
 
 O projeto estará disponível em http://localhost:3000 (ou conforme indicado no terminal).
 
-## 🖼️ Demonstrações
-
-| Página Inicial                        | Responsividade                            |
-| ------------------------------------- | ----------------------------------------- |
-| ![Home](./public/screenshot-home.png) | ![Mobile](./public/screenshot-mobile.png) |
-
 ## 🌐 Deploy
 
 O projeto está publicado em:
