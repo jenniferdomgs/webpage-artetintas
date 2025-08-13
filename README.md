@@ -1,4 +1,4 @@
-> Status: Concluído ⭐
+> Status: Concluído ✅
 
 ## 🌐 WebPage - Arte Tintas | SC
 <img width="1356" height="579" alt="hero" src="https://github.com/user-attachments/assets/d833ba44-560b-46df-8c5a-6286c2a55956" />
