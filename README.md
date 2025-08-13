@@ -1,4 +1,6 @@
-# 🌐 WebPage - Arte Tintas | SC
+> Status: Concluído ⭐
+
+## 🌐 WebPage - Arte Tintas | SC
 <img width="1356" height="579" alt="hero" src="https://github.com/user-attachments/assets/d833ba44-560b-46df-8c5a-6286c2a55956" />
 
 Uma página web desenvolvida com **React** e **Vite**, com foco em divulgar os serviços prestados pela empresa Arte Tintas (SC). O projeto está hospedado na **Vercel**.
