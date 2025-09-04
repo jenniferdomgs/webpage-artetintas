@@ -1,9 +1,10 @@
 > Status: Concluído ✅
 
-## 🌐 WebPage - Arte Tintas | SC
-<img width="1356" height="579" alt="hero" src="https://github.com/user-attachments/assets/d833ba44-560b-46df-8c5a-6286c2a55956" />
+## 🌐 WebPage - Arte Pinturas | SC
+<img width="1353" height="578" alt="image" src="https://github.com/user-attachments/assets/759625e0-1b40-48f3-86fd-bf7de1e56fc0" />
 
-Uma página web desenvolvida com **React** e **Vite**, com foco em divulgar os serviços prestados pela empresa Arte Tintas (SC). O projeto está hospedado na **Vercel**.
+
+Uma página web desenvolvida com **React** e **Vite**, com foco em divulgar os serviços prestados pela empresa Arte Pinturas (SC). O projeto está hospedado na **Vercel**.
 
 ## 🗂️ Estrutura do Projeto
 
@@ -38,11 +39,11 @@ Para rodar este projeto na sua máquina:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/jenniferdomgs/webpage-artetintas.git
+git clone https://github.com/jenniferdomgs/webpage-artepinturas.git
 ```
 
 2. Acesse a pasta do projeto:
-cd webpage-artetintas
+cd webpage-artepinturas
 
 3. Instale as dependências:
 npm install
@@ -55,7 +56,7 @@ O projeto estará disponível em http://localhost:3000 (ou conforme indicado no 
 ## 🌐 Deploy
 
 O projeto está publicado em:
-🔗 https://webpage-artetintas.vercel.app/
+🔗 https://webpage-artepinturas.vercel.app/
 
 ## 🧩 Funcionalidades
 
