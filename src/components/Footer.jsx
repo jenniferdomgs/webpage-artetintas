@@ -19,14 +19,14 @@ function Footer() {
                     </div>
                 </a>
 
-                <a href="https://www.instagram.com/arte_tintassc" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/artpinturas93" target="_blank" rel="noopener noreferrer">
                     <div className="footer-icon">
                     <i className="fab fa-instagram"></i>
                     </div>
                 </a>
                 </div>
 
-                <p>© 2025 Arte Tintas SC | Todos os direitos reservados</p>
+                <p>© 2025 Arte Pinturas SC | Todos os direitos reservados</p>
             </div>
         </footer>
       
