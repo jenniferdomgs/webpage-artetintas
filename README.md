@@ -67,8 +67,7 @@ O projeto está publicado em:
     ✅ Componentização com React
 
 ## 🧑‍💻 Autores
-<li>
-    <ul>Desenvolvimento: https://github.com/jenniferdomgs</ul>
-    <ul>Design do Site e Identidade Visual: https://github.com/felijoao08</ul>
-</li>
+
+- **[Jennifer Domingos](https://github.com/jenniferdomgs)**  
+- **[João Felipe](https://github.com/felijoao08)**
 
