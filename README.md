@@ -68,6 +68,6 @@ O projeto está publicado em:
 
 ## 🧑‍💻 Autores
 
-- **[Jennifer Domingos](https://github.com/jenniferdomgs)**  
-- **[João Felipe](https://github.com/felijoao08)**
+- **[Jennifer Domingos - Desenvolvimento](https://github.com/jenniferdomgs)**  
+- **[João Felipe - Design](https://github.com/felijoao08)**
 
